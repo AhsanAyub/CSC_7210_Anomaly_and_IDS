@@ -22,7 +22,9 @@ class node:
     ''' This is the defination class for each node in the constructued decision tree.
     Each node contains all the necessary details, e.g., name of the attribute, information
     gain, etc., and pointer to point its parent node, child node, and siblings (this is to
-    ensure we can effectively construct one parent node can carry multiple childs). '''
+    ensure we can effectively construct one parent node can carry multiple childs).
+    
+    Reference on how it works: http://cs360.cs.ua.edu/lectures/8%20Non-Binary%20Trees%20and%20Traversals.pdf '''
     
     def __init__(self):
         self.data = {}
